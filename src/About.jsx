@@ -43,7 +43,7 @@ const App = () => {
         <input type="text" autoComplete='off'
         value= {userRegistration.email}
         onChange={handleInput}
-         name='username' id='username'/>
+         name='email' id='email'/>
         </div>
 
       <div>
@@ -51,7 +51,7 @@ const App = () => {
         <input type="text" autoComplete='off'
         value={userRegistration.phone}
         onChange={handleInput}
-         name='username' id='username'/>
+         name='phone' id='phone'/>
         </div>
 
       <div>
@@ -59,7 +59,7 @@ const App = () => {
         <input type="passoword" autoComplete='off'
         value={userRegistration.password}
         onChange={handleInput}
-         name='username' id='username'/>
+         name='password' id='password'/>
         </div>
         <button type='submit'>Registration</button>
       </form>
